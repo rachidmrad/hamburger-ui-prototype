@@ -1,0 +1,62 @@
+// CUSTOM
+// Body and Typography
+html {
+	min-width: 320px;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: arial;
+	font-size: 1.6em;
+	color: @gray;
+	overflow-x: hidden;
+}
+
+h1 {
+	width: 100%;
+	font-size: 10em;
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+}
+
+.slider-wrapper {
+	.transition(margin-top);
+	.transition-duration(500ms); // for when we slide the body down on nav expand. related to class .content-slider in custom-navigation
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/city-m.jpg');
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	position: relative;
+	z-index: 0;
+	padding-top: 100px;
+
+}
+
+//////
+
+@navbar-default-bg: #ffffff;
+@navbar-default-border: transparent;
+// @navbar-default-brand-color;
+// @navbar-default-brand-hover-color;
+// @navbar-default-brand-hover-bg;
+// @navbar-default-color;
+// @navbar-default-link-color;
+// @navbar-default-link-hover-color;
+// @navbar-default-link-hover-bg;
+// @navbar-default-link-active-color;
+// @navbar-default-link-active-bg;
+// @navbar-default-link-disabled-color;
+// @navbar-default-link-disabled-bg;
+@navbar-default-toggle-border-color: transparent;
+@navbar-default-toggle-hover-bg: #ffffff;
+@navbar-default-toggle-icon-bar-bg: #000000;
